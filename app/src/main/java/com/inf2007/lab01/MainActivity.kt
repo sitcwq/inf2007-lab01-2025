@@ -98,6 +98,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         text = "Hello $name!, Welcome to INF2007!",
 <<<<<<< HEAD
         modifier = modifier
+=======
+        modifier = Modifier
+>>>>>>> 27818002106df1ced7671f9329c9f73de1e0d9b4
             .fillMaxWidth()
             .testTag("greetingMsg")
     )
