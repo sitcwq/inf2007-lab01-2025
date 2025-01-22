@@ -96,6 +96,7 @@ fun UserInput(name: String, onNameChange: (String) -> Unit, modifier: Modifier =
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!, Welcome to INF2007!",
+<<<<<<< HEAD
         modifier = modifier
             .fillMaxWidth()
             .testTag("greetingMsg")
